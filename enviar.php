@@ -16,13 +16,13 @@ $email = $_POST["email"];
 $message = $_POST["message"];
 
 
-$to = "hola@soymarco.com";
+$to = "youremail@yourdomain.com";
 
 
 // Datos de la cuenta de correo utilizada para enviar vía SMTP
-$smtpHost = "puma.theukhost.net";  // Dominio alternativo brindado en el email de alta 
-$smtpUsuario = "hola@soymarco.com";  // La cuenta de correo
-$smtpClave = "@s=*%PICElQK";  // Mi contraseña
+$smtpHost = "your host";  // Dominio alternativo brindado en el email de alta 
+$smtpUsuario = "youremail@yourdomain.com";  // La cuenta de correo
+$smtpClave = "your password";  // Mi contraseña
 
 
 
